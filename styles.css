@@ -59,19 +59,19 @@ h2 {
 
 /* QUESTION 1 */
 
-.red.threevert {
+.threevert {
         width: 500px;
         height: 100px;
         background-color: red;
 }
 
-.white.threevert {
+.threevert {
         width: 500px;
         height: 100px;
         background-color: white;
 }
 
-.lightblue.threevert {
+.threevert {
         width: 500px;
         height: 100px;
         background-color: lightblue;
