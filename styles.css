@@ -119,23 +119,16 @@ h2 {
 
 /* BEGIN QUESTION 3 */
 
-.blue {
-    width: 166px;
-    height: 300px;
-    background-color: #002c84;
+.romania-blue {
+  background-color: #002c84;
 }
 
-.yellow {
-    width: 166px;
-    height: 300px;
-    background-color: #ffcf00;
+.romania-yellow {
+  background-color: #ffcf00;
 }
 
-.red {
-    width: 166px;
-    height: 300px;
-    background-color: #e10017;
-}
+.romania-red {
+  background-color: #e10017;
 
 /* END QUESTION 3 */
 
