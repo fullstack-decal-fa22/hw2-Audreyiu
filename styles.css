@@ -59,10 +59,8 @@ h2 {
 
 /* QUESTION 1 */
 
-.red {
-  width: 500px;
-  height: 100px;
-  background-color: red;
+.orange {
+  background-color: orange;
 }
 
 .yellow {
@@ -73,28 +71,28 @@ h2 {
   background-color: green;
 }
 
-.white {
-  width: 500px;
-  height: 100px;
-  background-color: white;
-}
-
 .blue {
-   background-color: blue;
+  background-color: blue;
 }
 
 .lightblue {
-    width: 500px;
-    height: 100px;
-    background-color: blue;
+  background-color: rgb(0, 146, 221);
 }
 
 .purple {
   background-color: purple;
 }
 
+#white {
+  background-color: #fff;
+}
+
 .black {
   background-color: #000;
+}
+
+.red {
+  background-color: #e10017;
 }
 
 /* BEGIN QUESTION 2 */
