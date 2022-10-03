@@ -20,14 +20,6 @@ h2 {
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
 
-.label{
-  color: blueviolet;
-}
-
-.label:hover{
-  color: orange;
-}
-
 .flag {
   height: 300px;
   width: 500px;
@@ -40,11 +32,6 @@ h2 {
 }
 
 .threevert {
-  height: 33.3%;
-}
-
-#white {
-  background-color: white;
 }
 
 .threehoriz {
@@ -72,8 +59,10 @@ h2 {
 
 /* QUESTION 1 */
 
-.orange {
-  background-color: orange;
+.red {
+        width: 500px;
+        height: 100px;
+        background-color: red;
 }
 
 .yellow {
@@ -84,79 +73,100 @@ h2 {
   background-color: green;
 }
 
-.blue {
-  background-color: blue;
+.white {
+  width: 500px;
+  height: 100px;
+  background-color: white;
 }
 
-.light-blue {
-  background-color: lightblue;
+.blue {
+   background-color: blue;
+}
+
+.lightblue {
+    width: 500px;
+    height: 100px;
+    background-color: lightblue;
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
-  background-color: #fff;
-}
-
 .black {
   background-color: #000;
 }
 
-.red{
-  background-color: red;
-}
-
 /* BEGIN QUESTION 2 */
 
-
 .thailand-red {
-  height : 16.66%;
-  background-color : #B5002D;
+    width: 500px;
+    height: 45px;
+    background-color: #B5002D;
 }
-
+  
 .thailand-white {
-  height: 16.66%;
-  background-color : white;
+    width: 500px;
+    height: 45px;
+    background-color: white;
 }
-
+  
 .thailand-blue {
-  height: 33.33%;
-  background-color: #2E2A4C;
+    width: 500px;
+    height: 120px;
+    background-color: #2E2A4C
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
 
-.romania-blue {
+.romania-blue.threehoriz {
+  width: 166px;
+  height: 300px;
   background-color: #002c84;
 }
 
-.romania-yellow {
+.romania-yellow.threehoriz {
+  width: 166px;
+  height: 300px;
   background-color: #ffcf00;
 }
 
-.romania-red {
+.romania-red.threehoriz {
+  width: 166px;
+  height: 300px;
   background-color: #e10017;
 }
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
-.mexico-green {
-  background-color: #006341;
+.mexico-green.threehoriz {
+    width: 167px;
+    height: 300px; 
+    background-color: #006341;
 }
-
+  
 .mexico-img {
-  display: flexbox;
-  align-self: center;
-  max-height: 40%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    left: 177px;
+    bottom: 220px;
+}
+.mexico-white.threehoriz {    
+    background-color: white;
+    width: 167px;
+    height: 300px
 }
 
-.mexico-red {
-  background-color: #ce1126;
+.mexico-red.threehoriz {
+    width: 167px;
+    height: 300px;
+    background-color: #ce1126;
 }
 
 /* QUESTION 6 */
@@ -169,7 +179,17 @@ h2 {
   justify-content: center;
 }
 
+.label {
+  color: pink;
+}
+
+.label:hover {
+  color: purple;
+  font-size: 60px;
+}
+
 /* For margin practice */
+
 .flag1 {
   background-color: red;
   margin-right: 5px;
@@ -179,10 +199,14 @@ h2 {
   background-color: blue;
   margin-left: 5px;
 }
+
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
-  background-color: lightblue;
+  background-color: orange;
   background-clip: content-box, padding-box;
-  padding : 60px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 190px;
+    padding-bottom: 190px;
 }
