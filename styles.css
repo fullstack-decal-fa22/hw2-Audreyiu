@@ -74,9 +74,9 @@ h2 {
 }
 
 .white.threevert {
-  width: 500px;
-  height: 100px;
-  background-color: white;
+        width: 500px;
+        height: 100px;
+        background-color: white;
 }
 
 .blue {
@@ -84,9 +84,9 @@ h2 {
 }
 
 .lightblue.threevert {
-    width: 500px;
-    height: 100px;
-    background-color: lightblue;
+        width: 500px;
+        height: 100px;
+        background-color: lightblue;
 }
 
 .purple {
