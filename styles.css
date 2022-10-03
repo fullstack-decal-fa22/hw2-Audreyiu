@@ -59,10 +59,21 @@ h2 {
 
 /* QUESTION 1 */
 
-.red.threevert {
-        width: 500px;
-        height: 100px;
-        background-color: red;
+.red{
+  background-color: red;
+}
+
+#white{
+  background-color: white;
+}
+
+.light-blue{
+  background-color:lightblue;
+  /* height: 100px;
+  width: 500px; */
+}
+.orange {
+  background-color: orange;
 }
 
 .yellow {
@@ -73,24 +84,20 @@ h2 {
   background-color: green;
 }
 
-.white.threevert {
-  width: 500px;
-  height: 100px;
-  background-color: white;
-}
-
 .blue {
-   background-color: blue;
+  background-color: blue;
 }
 
-.lightblue.threevert {
-    width: 500px;
-    height: 100px;
-    background-color: lightblue;
+.lightblue {
+  background-color: lightblue;
 }
 
 .purple {
   background-color: purple;
+}
+
+.white {
+  background-color: #fff;
 }
 
 .black {
@@ -157,11 +164,6 @@ h2 {
     left: 177px;
     bottom: 220px;
 }
-.mexico-white {    
-    background-color: white;
-    width: 167px;
-    height: 300px
-}
 
 .mexico-red {
     width: 167px;
@@ -205,8 +207,5 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 190px;
-    padding-bottom: 190px;
+  padding: 60px;
 }
