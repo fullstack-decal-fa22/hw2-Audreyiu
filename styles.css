@@ -59,21 +59,10 @@ h2 {
 
 /* QUESTION 1 */
 
-.red{
-  background-color: red;
-}
-
-#white{
-  background-color: white;
-}
-
-.light-blue{
-  background-color:lightblue;
-  /* height: 100px;
-  width: 500px; */
-}
-.orange {
-  background-color: orange;
+.red.threevert {
+        width: 500px;
+        height: 100px;
+        background-color: red;
 }
 
 .yellow {
@@ -84,20 +73,24 @@ h2 {
   background-color: green;
 }
 
-.blue {
-  background-color: blue;
+.white.threevert {
+  width: 500px;
+  height: 100px;
+  background-color: white;
 }
 
-.lightblue {
-  background-color: lightblue;
+.blue {
+   background-color: blue;
+}
+
+.lightblue.threevert {
+    width: 500px;
+    height: 100px;
+    background-color: lightblue;
 }
 
 .purple {
   background-color: purple;
-}
-
-.white {
-  background-color: #fff;
 }
 
 .black {
@@ -128,19 +121,19 @@ h2 {
 
 /* BEGIN QUESTION 3 */
 
-.romania-blue {
+.romania-blue.threehoriz {
   width: 166px;
   height: 300px;
   background-color: #002c84;
 }
 
-.romania-yellow {
+.romania-yellow.threehoriz {
   width: 166px;
   height: 300px;
   background-color: #ffcf00;
 }
 
-.romania-red {
+.romania-red.threehoriz {
   width: 166px;
   height: 300px;
   background-color: #e10017;
@@ -149,13 +142,13 @@ h2 {
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
-.mexico-green {
+.mexico-green.threehoriz {
     width: 167px;
     height: 300px; 
     background-color: #006341;
 }
   
-.eagle.png {
+.mexico-img {
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -164,8 +157,13 @@ h2 {
     left: 177px;
     bottom: 220px;
 }
+.mexico-white.threehoriz {    
+    background-color: white;
+    width: 167px;
+    height: 300px
+}
 
-.mexico-red {
+.mexico-red.threehoriz {
     width: 167px;
     height: 300px;
     background-color: #ce1126;
@@ -207,5 +205,8 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  padding: 60px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 190px;
+    padding-bottom: 190px;
 }
