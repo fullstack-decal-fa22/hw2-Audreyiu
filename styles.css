@@ -25,7 +25,9 @@ h2 {
   width: 500px;
   border-style: solid;
   margin-bottom: 5rem;
-.twovert {
+}
+
+.twovert{
   height: 50%;
 }
 
@@ -169,7 +171,7 @@ h2 {
   width: 1030px;
   border-style: solid;
   display: flex;
-  justify-content: center;]
+  justify-content: center;
   background-position: center;
   align-self: center;
 }
@@ -191,7 +193,6 @@ h2 {
   margin-right: 5px;
   border-style: solid;
   margin-bottom: 5rem;
-
 }
 
 .flag2 {
