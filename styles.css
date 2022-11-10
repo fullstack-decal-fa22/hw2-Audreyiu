@@ -12,8 +12,17 @@
 }
 
 h2 {
+  color: #2E3440;
+  background-color: #8FBCBB;
+  border-radius: 6px;
+  padding: 10px;
   font-size: medium;
   font-weight: 200;
+}
+
+h2:hover {
+  color: #D8DEE9;
+  background-color: #B48EAD;
 }
 /* END SETUP */
 
@@ -27,7 +36,7 @@ h2 {
   margin-bottom: 5rem;
 }
 
-.twovert{
+.twovert {
   height: 50%;
 }
 
@@ -60,7 +69,7 @@ h2 {
 
 /* QUESTION 1 */
 
-.red{
+.red {
   background-color: red;
 }
 
@@ -80,7 +89,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -88,12 +97,8 @@ h2 {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
-}
-
-#white{
-  background-color: white;
 }
 
 .black {
@@ -102,22 +107,22 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
-.thailand-red {
-    width: 500px;
-    height: 45px;
-    background-color: #B5002D;
-}
-  
+.thailand-red,
 .thailand-white {
-    width: 500px;
-    height: 45px;
-    background-color: white;
+  height: 17.5%;
 }
-  
+
+.thailand-red {
+  background-color: #B5002D;
+}
+
+.thailand-white {
+  background-color: white;
+}
+
 .thailand-blue {
-    width: 500px;
-    height: 120px;
-    background-color: #2E2A4C
+  height: 30%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -125,22 +130,17 @@ h2 {
 /* BEGIN QUESTION 3 */
 
 .romania-blue {
- 
   background-color: #002c84;
-  
 }
 
 .romania-yellow {
-
   background-color: #ffcf00;
-  
 }
 
 .romania-red {
-
   background-color: #e10017;
-  
 }
+
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
@@ -148,16 +148,9 @@ h2 {
   background-color: #006341;
 }
 
-.mexico-red{
-  background-color: #ce1126;
-}
-
 .mexico-img {
-  display: flex;
-  max-width: 50%;
   max-height: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 50%;
   align-self: center;
 }
 
@@ -170,44 +163,25 @@ h2 {
   height: 300px;
   width: 1030px;
   border-style: solid;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
-  background-position: center;
-  align-self: center;
-}
-
-.label {
-  color: pink;
-}
-
-.label:hover {
-  color: green;
-  font-size: 60px;
 }
 
 /* For margin practice */
 .flag1 {
-  height: 200px;
-  width: 520px;
   background-color: red;
   margin-right: 5px;
-  border-style: solid;
-  margin-bottom: 5rem;
 }
 
 .flag2 {
-  height: 200px;
-  width: 520px;
   background-color: blue;
-  margin-right: 5px;
-  border-style: solid;
-  margin-bottom: 5rem;
+  margin-left: 5px;
 }
-
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  padding: 60px ;
+  padding: 15%;
 }
